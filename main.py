@@ -4,7 +4,6 @@ from PyQt5 import uic,QtWidgets
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QLineEdit, QToolTip, QTextEdit, QFrame, QPlainTextEdit
 from PyQt5.QtGui import QPixmap
-import sys
 import webbrowser
 
 
