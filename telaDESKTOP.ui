@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>telaDESKTOP</class>
+ <widget class="QMainWindow" name="telaDESKTOP">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;IMPRESSORA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;	NÃO LIGA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR REDE ELÉTRICA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR CABO DE ENERGIA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR SE EXISTE ALGUM EQUIPAMENTO ENTRE A TOMADA E O ITEM MCTY (NOBREAK/FILTRO DE LINHA/ ESTABILIZADOR)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;(MODELO SCX-3405) - MOVIMENTAR PAINEL FRONTAL - PARA VALIDAR POSSIVEL FALHA NO FLAT DO PAINEL &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR FONTE EXTERNA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR BOTAO DE POWER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;	FALHA NA QUALIDADE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;AUTOLIMPEZA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR MODO DE IMPRESSÃO (NORMAL - RASCUNHO -OTIMIZADO)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;REINSTALAR O DRIVER DA IMPRESSORA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;REALIZAR TESTES DE COPIA/DIGITALIZAÇÃO (CASO A IMPRESSORA POSSUA SCANNER) &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR SE EXISTEM OBJETOS ESTRANHOS DENTRO DA IMPRESSORA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR NÍVEIS DE TINTA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR O CARTUCHO OU TONNER &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ALINHAMENTO DA IMPRESSORA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;LIMPEZA DO CARTUCHO&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR AS CONFIGURAÇÕES DA IMPRESSORA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;	NÃO IMPRIMI&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR CABO DE DADOS  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR FILA DE IMPRESSÃO&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;REINICIAR SPOOLER DE IMPRESSÃO&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;(MODELO SCX-3405) - MOVIMENTAR PAINEL FRONTAL - PARA VALIDAR POSSIVEL FALHA NO FLAT DO PAINEL &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR TOONER, CARTUCHO, RIBON &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR SE O ITEM QUE ESTA SOLICITANDO IMPRESSÃO ESTA CONECTADO A IMPRESSORA (REDE OU CABO DIRETO)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR NÍVEIS DE TINTA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR SE É POSSIVEL REALIZAR COPIAS (XEROX) NA IMPRESSORA&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;REINICIAR O ITEM QUE ESTA SOLICITANDO A IMPRESSÃO&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR SE O USUARIO POSSUI PERMISSÃO PARA IMPRIMIR&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR SE A IMPRESSORA ESTA NA REDE E PINGANDO&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;VALIDAR COMPARTILHAMENTO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 183, 2)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>751</width>
+       <height>551</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>DESKTOP
+	NÂO LIGA
+VALIDAR REDE ELÉTRICA
+VALIDAR CABO DE ENERGIA
+VERIFICAR SE EXISTE ALGUM EQUIPAMENTO ENTRE A TOMADA E O ITEM MCTY (NOBREAK/FILTRO DE LINHA/ ESTABILIZADOR)
+VERIFICAR SE A FONTE POSSUI BOTAO DE POWER/CHAVE SELETORA DE VOLTAGEM
+VERIFICAR SE A FONTE ESTÁ LIGANDO
+REMOVER A BATERIA DA CMOS E INSERIR NOVAMENTE 
+REALIZAR TESTE NO TECLADO E MOUSE (O MAU FUNCIONAMENTO PODE SER CAUSADO POR PERIFERICOS)
+VERIFICAR SE O EQUIPAMENTO ESTA EMITINDO BIP OU LEDS E CONSULTAR MANUAL
+VERIFICAR SE BOTÃO POWER DO EQUIPAMENTO ESTÁ FUNCIONAL
+VERIFICAR SE O EQUIPAMENTO POSSUI FONTE EXTERNA
+REALIZAR TESTE DE DESMAGNETIZAÇÃO
+
+	NÃO ACESSA A REDE
+VERIFICAR SE CABO DE REDE ESTA CONECTADO
+VERIFICAR SE LED'S DA PLACA ESTÃO ACESSOS
+VERIFICAR SE HÁ OUTRO MICRO COM O MESMO PROBLEMA
+TESTAR OUTRO PONTO DE REDE PRÓXIMO
+TESTAR OUTRA CAIXA RJ45 (FÊMEA)
+REALIZAR TESTE DE DESMAGNETIZAÇÃO
+CONFIRMAR SE USUÁRIO ESTÁ UTILIZANDO LOGIN E SENHA CORRETOS
+VERIFICAR SE DEFINIÇÕES DE IP ESTÃO CONFORME SCRIPT DO CLIENTE
+VERIFICAR DOMINIO(REMOVER/REINSERIR)
+REINSTALAR DRIVE DA PLACA DE REDE
+VERIFICAR EM GERENCIAMENTO DE DISPOSITIVOS SE A PLACA DE REDE ESTÁ ATIVA
+VERIFICAR SE HÁ PERMISSÕES DE ACESSO NO DHCP POR MAC DA PLACA</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_voltar">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>500</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid rgb(0,0,0)</string>
+     </property>
+     <property name="text">
+      <string>VOLTAR</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
