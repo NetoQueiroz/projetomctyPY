@@ -1,7 +1,7 @@
 from os import sep
 # from PyQt5 import *
 from PyQt5 import uic,QtWidgets
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QLineEdit, QToolTip, QTextEdit, QFrame, QPlainTextEdit
 from PyQt5.QtGui import QPixmap
 import sys
