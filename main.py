@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QLineEdit, Q
 from PyQt5.QtGui import QPixmap
 import webbrowser
 
-
 """ ------- Links SCRIPTS ------- """
 def scriptusertemp():
     webbrowser.open('https://drive.google.com/file/d/1MlyG-tjftRzs8pr1FPhAcyPGOjkuIpkg/view?usp=sharing')
